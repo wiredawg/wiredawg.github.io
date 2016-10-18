@@ -2,5 +2,5 @@
 
 ## Index
 
-- ["Off The Record" (OTR) Encryption on iOS](chatsecure-howto)
+- ["Off The Record" (OTR) Encryption on iOS](posts/chatsecure-howto)
 
