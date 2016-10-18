@@ -1,5 +1,8 @@
 {
     "otr-on-ios" : {
         "title" : "OTR Encrypted XMPP on iOS"
+    },
+    "whats-a-wiredawg" : {
+        "title" : "What are Wire Dawgs?"
     }
 }
