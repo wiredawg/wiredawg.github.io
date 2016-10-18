@@ -1,0 +1,11 @@
+h1 TODO: Add Title
+
+h2 Index
+
+// - ["Off The Record" (OTR) Encryption on iOS](posts/otr-on-ios)
+
+ul
+    each post, slug in public.posts._data
+        li
+            a(href="/posts/#{ slug }") #{ post.title }
+
