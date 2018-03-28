@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Wiredawg's Homepage">
+        <meta name="author" content="wiredawg">
+
+        <title>Wiredawg's Homepage</title>
+
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/simple-sidebar.css" rel="stylesheet">
+        <link href="css/debris.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <div id="wrapper">
+
+            <!-- Sidebar -->
+            <div id="sidebar-wrapper">
+                <ul class="sidebar-nav">
+                    <li class="sidebar-brand">
+                        <a href="#"> Home </a>
+                    </li>
+                    <li>
+                        <a href="/about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /#sidebar-wrapper -->
+
+            <!-- Page Content -->
+            <div id="page-content-wrapper">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col">
+                            <a href="#menu-toggle" class="btn btn-light" type="button" id="menu-toggle"> &gt; </a>
+                        </div>
+                        <div class="col text-right">
+                            <button type="button" class="btn btn-light" data-toggle="collapse" data-target="#notice">?</button>
+                            <div id="notice" class="collapse">
+                                What is a wiredawg? <a href="#">Find out</a>.
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+                    <div style="padding:20px 0px 10px 0px" class="bg-secondary text-light">
+                        <div class="row">
+                            <div class="col"></div>
+                            <div class="col text-center">
+                                <h1>Wiredawg (kb)</h1>
+                                <p>This is my homepage. It's not done.</p>
+                            </div>
+                            <div class="col"></div>
+                        </div>
+                    </div>
+                    <hr />
+                    <h1>Posts</h1>
+                    <hr class="dashed"/>
+                    <h2><small>2018-03-26 | </small>Getting started</h1>
+                    <p>Still scallfolding this out...</p>
+                    <hr class="dashed"/>
+                </div>
+            </div>
+            <!-- /#page-content-wrapper -->
+
+        </div>
+        <!-- /#wrapper -->
+
+        <!-- Bootstrap core JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Menu Toggle Script -->
+        <script>
+            $("#menu-toggle").click(function(e) {
+                e.preventDefault();
+                $("#wrapper").toggleClass("toggled");
+            });
+        </script>
+
+    </body>
+
+</html>
