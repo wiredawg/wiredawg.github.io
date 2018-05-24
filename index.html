@@ -36,18 +36,48 @@
             </div>
             <!-- /#sidebar-wrapper -->
 
+                                <!-- Modal -->
+                                <div id="userModal" class="modal fade" role="dialog">
+                                  <div class="modal-dialog">
+
+                                    <!-- Modal content-->
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h4 class="modal-title">Log In</h4>
+                                      </div>
+                                      <div class="modal-body">
+                                        <p>
+                                        <form action="/#login">
+                                            <div class="form-group">
+                                                <label for="email">Email address:</label>
+                                                <input type="email" class="form-control" id="email">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="pwd">Password:</label>
+                                                <input type="password" class="form-control" id="pwd">
+                                            </div>
+                                            <button type="submit" class="btn btn-default">Submit</button>
+                                        </form>
+                                        </p>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                                      </div>
+                                    </div>
+
+                                  </div>
+                                </div>
+
+
             <!-- Page Content -->
             <div id="page-content-wrapper">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col">
-                            <a href="#menu-toggle" class="btn btn-light" type="button" id="menu-toggle"> &gt; </a>
+                            <a href="#menu-toggle" class="btn btn-light" type="button" id="menu-toggle"> &middot;&middot;&middot; </a>
                         </div>
                         <div class="col text-right">
-                            <button type="button" class="btn btn-light" data-toggle="collapse" data-target="#notice">?</button>
-                            <div id="notice" class="collapse">
-                                What is a wiredawg? <a href="#">Find out</a>.
-                            </div>
+                            <button type="button" class="btn btn-light" data-toggle="modal" data-target="#userModal">👤</button>
                         </div>
                     </div>
                     <hr />
