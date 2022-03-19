@@ -8,7 +8,7 @@
         <meta name="description" content="Wiredawg's Homepage">
         <meta name="author" content="wiredawg">
 
-        <title>Tin.K@N -- </title>
+        <title>Tin.K@N -- {{ title }}</title>
 
         <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link href="css/simple-sidebar.css" rel="stylesheet">
@@ -58,14 +58,13 @@
                     <hr />
                     <h1>Posts</h1>
                     
-                    
+                    {% for p in posts %}
                     <!-- START POST -->
                     <hr class="dashed"/>
-                    <h2><small>Friday, Mar. 18 2022 at 06:45 PM | </small>Hello World</h1>
-                    <p>Sophia is sitting with me and watching me build this static website generator!</p>
-
+                    <h2><small>{{ p.date }} | </small>{{ p.title }}</h1>
+                    {{ p.content }}
                     <!-- END POST -->
-                    
+                    {% endfor %}
                     
                     <hr class="dashed"/>
                 </div>
