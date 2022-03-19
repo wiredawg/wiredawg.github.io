@@ -21,10 +21,13 @@ def build_blog():
     for pf in post_files:
         with open(pf) as fp: raw_html = markdown2.markdown(fp.read(), extras=['metadata'])
         p = {}
-        p["date"] = datetime.strptime(raw_html.metadata["date"], "%Y-%m-%d %H:%M").strftime("%A, %h. %d %Y at %I:%M %p")
+        p["timestamp"] = datetime.strptime(raw_html.metadata["date"], "%Y-%m-%d %H:%M")
+        p["date"] = p["timestamp"].strftime("%A, %h. %d %Y at %I:%M %p")
         p["title"] = raw_html.metadata["title"]
         p["content"] = raw_html
         posts.append(p)
+
+    posts.sort(key= lambda x: x["timestamp"], reverse=True)
 
     r = tmpl.render({"posts": posts})
 
