@@ -1,6 +1,6 @@
 ---
 title: Intro to the Divine Office
-date: 2022-03-18 19:04
+date: 2022-03-19 19:04
 ---
 
 The Divine Office, also called the Liturgy of the Hours, is the daily prayer of the
