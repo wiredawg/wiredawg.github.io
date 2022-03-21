@@ -8,11 +8,11 @@
         <meta name="description" content="Wiredawg's Homepage">
         <meta name="author" content="wiredawg">
 
-        <title>TinCan -- {{ title }}</title>
+        <title>wiredawg.github.io</title>
 
-        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/simple-sidebar.css" rel="stylesheet">
-        <link href="css/debris.css" rel="stylesheet">
+        <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/css/simple-sidebar.css" rel="stylesheet">
+        <link href="/css/debris.css" rel="stylesheet">
 
     </head>
 
@@ -24,14 +24,13 @@
             <div id="sidebar-wrapper">
                 <ul class="sidebar-nav">
                     <li class="sidebar-brand">
-                        <a href="#"> Home </a>
+                        <a href="/"> Home </a>
                     </li>
+                    
                     <li>
-                        <a href="/about.html">About</a>
+                        <a href="/pages/about.html">About Me</a>
                     </li>
-                    <li>
-                        <a href="/contact.html">Contact</a>
-                    </li>
+                    
                 </ul>
             </div>
             <!-- /#sidebar-wrapper -->
@@ -56,15 +55,33 @@
                         </div>
                     </div>
                     <hr />
-                    <h1>Posts</h1>
-                    
-                    {% for p in posts %}
-                    <!-- START POST -->
-                    <hr class="dashed"/>
-                    <h2><small>{{ p.date }} | </small>{{ p.title }}</h1>
-                    {{ p.content }}
-                    <!-- END POST -->
-                    {% endfor %}
+
+                    <div id="content">
+    <h1>About Me</h1>
+
+<h2>What is a <code>wiredawg</code>?</h2>
+
+<p>A "Wire Dawg" is the name given to telecommunication technicians in the U.S.
+Military. There used to be a vibrant online presence at <code>wiredawg.net</code> where
+one could learn more and see the work that these folks have done all over
+the world. But that site shutdown in the late 2000s. So I name this project
+in honor of all those whom for decades installed and maintained the
+most wide-spread analog telephony network on Earth.</p>
+
+<h2>Who am I?</h2>
+
+<p>I'm not big in sharing personal specifics online. I'm a former Air Force telecom
+tech. Current computer engineer. With a wide range of interests that have varied 
+over the years.</p>
+
+<p>I just like spending time with my family, teaching people the things I have learned over
+the years, and learning from those far smarter than I.</p>
+
+<pre><code>$ _build_site.py --help
+&gt;&gt;&gt; Test
+</code></pre>
+
+</div>
                     
                     <hr class="dashed"/>
                 </div>
@@ -75,8 +92,8 @@
         <!-- /#wrapper -->
 
         <!-- Bootstrap core JavaScript -->
-        <script src="vendor/jquery/jquery.min.js"></script>
-        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="/vendor/jquery/jquery.min.js"></script>
+        <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
         <!-- Menu Toggle Script -->
         <script>

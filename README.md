@@ -19,6 +19,6 @@ date: YYYY-mm-dd HH:MM
 <YOUR POST CONTENTS>
 ```
 
-6. Build the site: `./_build_blog.py`
+6. Build the site: `./_build_site.py`
 7. Publish the site: `git push origin master`
 

@@ -1,0 +1,13 @@
+{% extends "base.j2" %}
+{% block content %}
+    <h1>Posts</h1>
+    
+    {% for p in posts %}
+    <!-- START POST -->
+    <hr class="dashed"/>
+    <h2><small>{{ p.date }} | </small>{{ p.title }}</h1>
+    {{ p.content }}
+    <!-- END POST -->
+    {% endfor %}
+{% endblock %}
+                    

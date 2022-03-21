@@ -26,11 +26,11 @@
                     <li class="sidebar-brand">
                         <a href="/"> Home </a>
                     </li>
-                    
+                    {% for p in pages %}
                     <li>
-                        <a href="/pages/about.html">About Me</a>
+                        <a href="{{ p.link }}">{{ p.title }}</a>
                     </li>
-                    
+                    {% endfor %}
                 </ul>
             </div>
             <!-- /#sidebar-wrapper -->
@@ -56,32 +56,7 @@
                     </div>
                     <hr />
 
-                    <div id="content">
-    <h1>Posts</h1>
-    
-    
-    <!-- START POST -->
-    <hr class="dashed"/>
-    <h2><small>Saturday, Mar. 19 2022 at 07:04 PM | </small>Intro to the Divine Office</h1>
-    <p>The Divine Office, also called the Liturgy of the Hours, is the daily prayer of the
-Catholic Church. In the past, I wrote up an article providing the reader with a
-survey of the different forms available for this type of prayer. </p>
-
-<ul>
-<li><a href="misc/loth.html">HTML</a></li>
-<li><a href="misc/loth.pdf">PDF</a></li>
-</ul>
-
-    <!-- END POST -->
-    
-    <!-- START POST -->
-    <hr class="dashed"/>
-    <h2><small>Saturday, Mar. 19 2022 at 06:45 PM | </small>Hello World</h1>
-    <p>Is it working?</p>
-
-    <!-- END POST -->
-    
-</div>
+                    <div id="content">{% block content %}{% endblock %}</div>
                     
                     <hr class="dashed"/>
                 </div>

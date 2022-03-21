@@ -2,3 +2,12 @@
     border-top:1px dotted #333;
 }
 
+code {
+    color: #222;
+}
+
+a {
+    color: #222;
+    font-style: underline;
+}
+
