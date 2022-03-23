@@ -17,6 +17,7 @@
     </head>
 
     <body>
+        <a id="top" />
 
         <div id="wrapper">
 
@@ -29,6 +30,14 @@
                     {% for p in pages %}
                     <li>
                         <a href="{{ p.link }}">{{ p.title }}</a>
+                    </li>
+                    {% endfor %}
+                    <li class="sidebar-seperator">
+                        <a href="/">Posts/Updates</a>
+                    </li>
+                    {% for p in posts %}
+                    <li>
+                        <a href="/#{{ p.title|escape|lower|replace(" ", "_") }}">{{ p.title }}</a>
                     </li>
                     {% endfor %}
                 </ul>
@@ -44,13 +53,13 @@
                         </div>
                     </div>
                     <hr />
-                    <div style="padding:20px 0px 10px 0px" class="bg-secondary text-light">
+                    <div style="padding:20px 0px 10px 0px" class="header-banner">
                         <div class="row">
-                            <div class="col"></div>
-                            <div class="col text-center">
-                                <h1>TinCan's Blog</h1>
-                                <p><small>...Powered by <a href="https://github.com/wiredawg/wiredawg.github.io">github.com/wiredawg/wiredawg.github.io</a></small></p>
+                            <div class="col header-text text-right">
+                                <h1>The Tin Can Report</h1>
+                                <p><small>...Powered by <a href="https://github.com/wiredawg/wiredawg.github.io" class="link-styled">wiredawg</a></small></p>
                             </div>
+                            <div class="col"></div>
                             <div class="col"></div>
                         </div>
                     </div>

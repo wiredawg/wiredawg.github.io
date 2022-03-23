@@ -21,14 +21,16 @@ def build_blog():
     for pf in post_files:
         with open(pf) as fp: tobj = markdown2.markdown(fp.read(), extras=['metadata', 'fenced-code-blocks'])
         p = {}
+        for k,v in tobj.metadata.items():
+            if k == "date":
+                p["timestamp"] = datetime.strptime(v, "%Y-%m-%d %H:%M")
+                p["date"] = p["timestamp"].strftime("%A, %h. %d %Y at %I:%M %p")
+            else:
+                p[k] = v
         p["filename"] = pf
-        p["timestamp"] = datetime.strptime(tobj.metadata["date"], "%Y-%m-%d %H:%M")
-        p["date"] = p["timestamp"].strftime("%A, %h. %d %Y at %I:%M %p")
-        p["title"] = tobj.metadata["title"]
-        p["template"] = tobj.metadata.get("template")
         p["content"] = tobj
         # Decide if this is going to the posts or as a page itself
-        if p["template"]: pages.append(p)
+        if "template" in p: pages.append(p)
         else: posts.append(p)
 
     # Render any pages
@@ -39,7 +41,7 @@ def build_blog():
         ofile = os.path.join("pages", ofile)
         p["link"] = "/" + ofile
         tmpl = tenv.get_template(p["template"]+".j2")
-        r = tmpl.render({"page":p, "pages": pages})
+        r = tmpl.render({"page":p, "pages": pages, "posts": posts})
         with open(ofile, 'w') as fp: fp.write(r)
 
     # Render the posts

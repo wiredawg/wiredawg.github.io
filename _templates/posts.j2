@@ -2,12 +2,30 @@
 {% block content %}
     <h1>Posts</h1>
     
-    {% for p in posts %}
+{% for p in posts %}
     <!-- START POST -->
     <hr class="dashed"/>
-    <h2><small>{{ p.date }} | </small>{{ p.title }}</h1>
-    {{ p.content }}
+    <a id="{{p.title|escape|lower|replace(" ", "_")}}" />
+    <div class="row">
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col text-right">
+            <span class="post-date">{{ p.date }}</span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col text-center post-title">
+             {{ p.title }}{% if p.subtitle %}: <span class="post-subtitle">{{ p.subtitle }}</span>{% endif %}
+        </div>
+    </div>
+    <div class="row post-body">
+        <div class="col">
+            {{ p.content }}
+        </div>
+    </div>
     <!-- END POST -->
-    {% endfor %}
+    <small><a href="#top">top</a></small>
+{% endfor %}
+
 {% endblock %}
                     

@@ -1,3 +1,14 @@
+body {
+    background-color: #fbfbfb;
+}
+
+blockquote {
+    border-left: 1px solid #000;
+    padding-left: 5px;
+    margin-left: 15px;
+    background-color: #fbfbfb;
+}
+
 .dotted {
     border-top:1px dotted #333;
 }
@@ -6,8 +17,69 @@ code {
     color: #222;
 }
 
-a {
+.link-styled {
     color: #222;
-    font-style: underline;
+    text-decoration: underline;
 }
 
+.link-unstyled, .link-unstyled:link, .link-unstyled:hover {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.header-banner {
+    background-color: #34516a !important;
+    background-image: url("/images/header.png");
+    background-position: initial;
+    background-size: cover;
+    height: 250px;
+}
+
+.header-text {
+    background-color: rgba(250,250,250,0.8);
+    color: #333;
+}
+
+.post-body {
+    padding: 5px;
+    border: 1px solid #f9f9f9;
+    margin-bottom: 60px;
+    background-color: #fff;
+}
+
+.post-date {
+    color: #900;
+    border: 1px solid #f9f9f9;
+    padding: 2px 5px;
+    background-color: #fff;
+}
+
+.post-title {
+    font-size: 42px;
+    font-weight: bold;
+    background-color: #fff;
+    margin-top: 5px;
+}
+.post-subtitle {
+    font-size: 38px;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.sidebar-seperator {
+    color: #ccc;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-top: 10px;
+}
