@@ -14,7 +14,7 @@ near a church in my town and do our workouts at different parks and sites nearby
 
 # Warmups
 
-_Stations 1-5_
+_Stations 1-3_
 
 **The First Station:** `Pilate Condemns Jesus to Die`
 
@@ -30,24 +30,26 @@ _Stations 1-5_
 
 > Like Burpees but sit ups. Controlled fall to your rear, sit up, recover to feet and repeat.
 
-**The Fourth Station:** `Jesus Meets His Afflicted Mother`
-
-> We will meet up for some supported Merkins
-
-**The Fifth Station:** `Simon Helps Jesus Carry the Cross`
-
-> One PAX on either side of the coupon. Carry to the marker then
-> return to start. Next team launches. Go back in line. Two rounds.
-
 # Pair Exercises
 
 _Stations 4-8_
 
-**The Sixth Station:** `Veronica Offers Her Vail To Jesus`
+**The Fourth Station:** `Jesus Meets His Afflicted Mother`
 
 > Inspired by this gesture of compassion, the PAX team up now. Count off/Pair Up.
 
-> Reprieve. Thinkers in cadance.
+**The Fifth Station:** `Simon Helps Jesus Carry the Cross`
+
+> As pairs, one PAX stands at the basketball court with the coupon. The other down 
+> range toward the swingset. The PAX at the court runs with coupon to the other PAX while 
+> that PAX is doing merkins.
+> Upon arrival, PAX 2 collects the coupon and runs to the court. While PAX 1 does merkins.
+> When PAX 2 arrives at the court they enter into planks until all are back in place.
+> Repeat.
+
+**The Sixth Station:** `Veronica Offers Her Vail To Jesus`
+
+> We will offer up some supported Merkins as a pair. Rest your legs on each other do 20 Merkins.
 
 **The Seventh Station:** `Jesus Falls The Second Time`
 
@@ -100,6 +102,8 @@ _They stretched out his <u>arms</u> and nailed them to the cross._
 **The Fourteenth Station:** `Jesus Is Placed In The Sepulcher`
 
 > The PAX return any natural coupons to their original resting places.
+
+---
 
 # Prayer to Jesus Christ Crucified
 
