@@ -3,6 +3,7 @@ title: SotC Workout Plan
 subtitle: Stations of the Cross
 date: 2022-03-20 23:25
 template: page
+bg_class: stations
 ---
 
 <div class="post-title">A Workout Plan Based On The Stations of the Cross For Lent</div>
