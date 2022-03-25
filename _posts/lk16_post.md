@@ -33,13 +33,17 @@ be free of God's Law?
 ...Is that not the same as separation from God, which is the definition of sin?
 
 ...And what then is God if not the reality of good, truth, and beauty. Why would we 
-want to seperate ourselves from that?
+want to separate ourselves from that?
 
-As we strive for self-reliance and independence we fall from grace and get 
-lost in the darkness, preferring the flicker shadows on the caves of the walls
-to capture our attention. While the source of light creating those shadows
-shines forth at the mouth of that cave beaconing us to get up and walk out.
-Even as we realize this and desire to leave the cave, we find ourselves stuck
-in a world resisting us. It is almost a crab mentality, when one realizes the 
-truth and trys to leave the cave, another still blind, pulls us back to our
-spot in front of the shadows.
+As we strive for self-reliance, to place our trust in creation, and to hold an
+illusion of independence, we fall from grace and get 
+lost in the darkness. 
+
+[Plato's allegory of the cave in his "The Republic"](https://www.thoughtco.com/the-allegory-of-the-cave-120330)
+(<small>[source](http://classics.mit.edu/Plato/republic.mb.txt)</small>)
+remains immensely applicable today as it did back then. We very much prefer the
+flicker shadows on the walls of the cave. They allure us. They distract us.
+They seem to excuse us from our duties. All the while the source of light creating those shadows
+shines forth at the mouth of that cave. It beacons us to get up and walk out, to see and to return and share
+the news and bring others out. But even as we realize this and desire to leave the cave, we find ourselves stuck
+in a world resisting us. This is our crab mentality, now, just as it was in Plato's time.
