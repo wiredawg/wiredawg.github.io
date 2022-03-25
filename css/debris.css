@@ -89,4 +89,10 @@ h3 {
     background-image: url("/images/stations.png");
     background-position: initial;
     background-size: cover;
+    padding: 15px;
 }
+
+#stations .post-title {
+    background-color: inherit;
+}
+
