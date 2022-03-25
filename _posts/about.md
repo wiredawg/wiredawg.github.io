@@ -1,7 +1,7 @@
 ---
 title: About Me
 date: 2022-03-19 11:14
-template: page
+category: page
 ---
 
 # About Me
@@ -20,7 +20,7 @@ most wide-spread analog telephony network on Earth.
 That's hard to describe. For one, I'm not big in sharing personal specifics online.
 I also agree that we should not define ourselves by our careers. There is so much 
 more to us. But alas, with respect to the name of this site, I am a former Air Force
-telecommunications techician who since has moved on to explore other areas of technology from
+telecommunications technician who since has moved on to explore other areas of technology from
 logically describing the behavior of the transistor arrangements inside of a microprocessor
 to writing code that automatically controls a lawnmower, to databases and web applications.
 

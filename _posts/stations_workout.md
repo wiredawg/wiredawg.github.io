@@ -2,7 +2,7 @@
 title: SotC Workout Plan
 subtitle: Stations of the Cross
 date: 2022-03-20 23:25
-template: page
+category: page
 bg_class: stations
 ---
 
@@ -55,9 +55,9 @@ _Stations 4-8_
 **The Seventh Station:** `Jesus Falls The Second Time`
 
 > Burpees!
-> While partner crosses the court back and forths doing lazy inch worms.
+> While partner crosses the court back and forth doing lazy inch worms.
 
-**The Eigth Station:** `Jesus Speaks to the Women`
+**The Eighth Station:** `Jesus Speaks to the Women`
 
 > Assisted bear crawls, aka Wheelbarrows. Pair up. BBall court side-to-side one way then
 > switch. At half-court. 5 Dirkins since you're already in that position anyway...
@@ -86,7 +86,7 @@ Honoring the journey their Lord took with the cross, the PAX will make these sta
 
 _They stretched out his <u>arms</u> and nailed them to the cross._
 
-> Taking turns holding the coupon out at yourside, first team to elevate at 90 degress
+> Taking turns holding the coupon out at your side, first team to elevate at 90 degrees
 > for 100 seconds wins. You may assist your team mate but don't take away the challenge.
 
 **The Twelfth Station:** `Jesus Dies Upon The Cross`

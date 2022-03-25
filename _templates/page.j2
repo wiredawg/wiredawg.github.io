@@ -1,6 +1,7 @@
 {% extends "base.j2" %}
 {% block content %}
 <div id="{{page.bg_class}}">
+    <span class="post-date">{{ page.date }}</span>
     {{ page.content }}
 </div>
 {% endblock %}

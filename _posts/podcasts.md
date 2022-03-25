@@ -1,7 +1,7 @@
 ---
 title: My Favorite Podcasts
 date: 2022-03-20 23:14
-template: page
+category: page
 ---
 
 I used to have a 1hr one-way commute and as a result I was a big listener of podcasts and audio books. Since 
@@ -16,18 +16,18 @@ As I am an adult convert to the Catholic Faith, I sought many resources during m
 to help guide and form my understanding of the faith. Being an engineer and generally a logic
 and reason based guy, I found that I had to do a lot of research before I could really 
 accept God into my life. After that, I had to find which religion and church made the most
-sense. The following podcasts where great suppliments in this search but only a fragment
+sense. The following podcasts where great supplements in this search but only a fragment
 in my greater journey that led me to where I am today.
 
 [**The Catholic Talk Show**](https://catholictalkshow.com/)
 
-> Three knowlegable and guys with great comraderie discussion popular topics of Catholicism. Surface level and some deep dives but
+> Three knowledgeable guys with great camaraderie discussion popular topics of Catholicism. Surface level and some deep dives but
 > geared for your average person.
 
 [**The Chant of Le Barroux**](https://www.barroux.org/en/liturgie/listen-to-our-offices.html)
 
-> A monestary in France streaming their daily hours of the Divine Office. This is the Monastic office of St. Benedict which
-> very closely aligns with the texts in the Monastic Diurnale. See: [my write up on the divine office](/misc/loth.html)
+> A monastery in France streaming their daily hours of the Divine Office. This is the Monastic office of St. Benedict which
+> very closely aligns with the texts in the Monastic Diurnal. See: [my write up on the divine office](/misc/loth.html)
 
 [**Liturgia Horarum**](https://www.vaticannews.va/la/podcast/liturgia-horarum/laudes.html)
 
@@ -36,8 +36,8 @@ in my greater journey that led me to where I am today.
 
 [**Pints With Aquinas**](https://pintswithaquinas.com/)
 
-> Some Austrailian bloke who moved to Stubenville Ohio for some reason to setup a studio
-> where he breaks down complicated theological problems and discusses issues relevent to
+> Some Australian bloke who moved to Steubenville Ohio for some reason to setup a studio
+> where he breaks down complicated theological problems and discusses issues relevant to
 > modern Catholics. He has a lot of great guests on including [Scott Hahn](https://stpaulcenter.com/audio-video/the-road-to-emmaus/)
 > and Fr. Gregory Pine from [Godsplaining](https://godsplaining.org/)
 
@@ -47,7 +47,7 @@ in my greater journey that led me to where I am today.
 
 [**Reason and Theology**](https://reasonandtheology.com/)
 
-> Get deep discussions and apologetics from a plethera of guests diving into Catholic theology and debates
+> Get deep discussions and apologetics from a plethora of guests diving into Catholic theology and debates
 > with other faiths.
 
 [**Our Lady of Victory**](https://olvnorthville.org/homilies)
@@ -87,7 +87,7 @@ in my greater journey that led me to where I am today.
 
 [**Divine Office**](http://www.divineoffice.org/)
 
-> The post-Vatican II Liturgy of the Hours in English. A bit to "contemporary" for my tastes. Perhaps
+> The post-Vatican II Liturgy of the Hours in English. A bit too "contemporary" for my tastes. Perhaps
 > for the older crowd. See: [my write up on the divine office](/misc/loth.html)
 
 [**Fr. Mike Schmitz**](https://media.ascensionpress.com/category/ascension-podcasts/frmikepodcast/)
