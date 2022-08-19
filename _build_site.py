@@ -4,6 +4,7 @@ import sys
 import shutil
 import json
 from datetime import datetime
+import hashlib
 
 from jinja2 import Environment, FileSystemLoader, TemplateNotFound
 import markdown2
@@ -11,6 +12,20 @@ import markdown2
 DEFAULT_POST_TEMPLATE = "post.j2"
 DEFAULT_PAGE_TEMPLATE = "page.j2"
 DEFAULT_TEMPLATE_MAP  = { "page": DEFAULT_PAGE_TEMPLATE, "post": DEFAULT_POST_TEMPLATE }
+
+def expand_filter(html, name="_default_"):
+    tag = "<p>//EXPAND</p>"
+    out_html = []
+    close_this = False
+    for line in html.split('\n'):
+        if tag in line:
+            close_this = True
+            out_html.append('<a data-toggle="collapse" data-target="#post_extended_{}" style="color:#A00;text-decoration:underline">Continue reading...</a>'.format(name))
+            out_html.append('<div class="collapse hide" id="post_extended_{}"><div class="card card-body">'.format(name))
+        else:
+            out_html.append(line)
+    if close_this: out_html.append('</div></div>')
+    return "\n".join(out_html)
 
 def make_pages_dir():
     try: shutil.rmtree("pages")
@@ -31,8 +46,14 @@ def build_blog():
     
     posts = []
     pages = []
+    extras = {
+        "metadata" : {},
+        "tables" : {},
+        "html-classes" : { "table" : "table table-striped table-bordered table-sm center" },
+        "fenced-code-blocks" : {}
+    }
     for pf in post_files:
-        with open(pf) as fp: tobj = markdown2.markdown(fp.read(), extras=['metadata', 'fenced-code-blocks'])
+        with open(pf) as fp: tobj = markdown2.markdown(fp.read(), extras=extras)
         p = {}
         for k,v in tobj.metadata.items():
             if k == "date":
@@ -47,8 +68,9 @@ def build_blog():
 
         if "category" not in p: p["category"] = "post"
         if "template" not in p: p["template"] = DEFAULT_TEMPLATE_MAP.get("category", DEFAULT_PAGE_TEMPLATE)
-        p["filename"] = pf
-        p["content"] = tobj
+        p["filename"] = str(pf)
+        tagname = hashlib.md5(p["filename"].encode('utf-8')).hexdigest()
+        p["content"] = expand_filter(tobj, name=tagname)
 
         # There are different categories of articles that can be published:
         #   1. Posts: Blog posts that are published to the main index page. These are usually short articles that

@@ -96,3 +96,8 @@ h3 {
     background-color: inherit;
 }
 
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
