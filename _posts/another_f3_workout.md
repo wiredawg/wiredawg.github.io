@@ -1,7 +1,7 @@
 ---
 title: F3 Workout Plan
 subtitle: Hamburger Hill
-date: 2022-08-20 07:53
+date: 2022-08-19 07:53
 ---
 
 I'm a part of a fitness group of guys who meet every Saturday at 0500 in the gloom,
