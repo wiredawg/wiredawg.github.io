@@ -3,6 +3,8 @@ title: Pascal's Wager
 date: 2022-04-07 06:55
 ---
 
+<center><img src="/images/pascals_wager.png" width="20%"></center>
+
 It is hard to argue with the logic presented by Blaise Pascal in
 his discussion on the ["Belief in God Wager"](https://plato.stanford.edu/entries/pascal-wager/).
 
@@ -54,7 +56,7 @@ Thus He must also then be the source of reason (and of faith and revelation).
 
 But, How again do we /know/ that God is the source of reality?  By definition
 of reason: God is not a created being, some “old man in the clouds“. God is
-that which nothing can be greater: God is Love, God is Truth, God is Goodness.
+that which nothing can be greater: God *is* Love, God *is* Truth, God *is* Goodness.
 
 By definition of faith: Per Aquinas and Catholic teaching, the church claims
 that the signs of credibility are provided by examples such as Jesus’ miracles

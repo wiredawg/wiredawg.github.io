@@ -52,7 +52,6 @@ code {
     color: #900;
     border: 1px solid #f9f9f9;
     padding: 2px 5px;
-    background-color: #fff;
 }
 
 .post-title {
@@ -99,5 +98,16 @@ h3 {
 .center {
   margin-left: auto;
   margin-right: auto;
+}
+
+.bg-override-rosary {
+    background-image: url("/images/Rosaries/20210607_105422-sm.jpg");
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: -1;
+    opacity: 30%;
 }
 

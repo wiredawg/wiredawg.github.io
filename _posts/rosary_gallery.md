@@ -7,3 +7,5 @@ gallery_dir: /images/Rosaries
 ---
 
 A collection of Rosaries I have assembled over time.
+
+<div class="bg-override-rosary"></div>
