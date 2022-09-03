@@ -5,13 +5,15 @@ import shutil
 import json
 from datetime import datetime
 import hashlib
+import re
 
 from jinja2 import Environment, FileSystemLoader, TemplateNotFound
 import markdown2
 
 DEFAULT_POST_TEMPLATE = "post.j2"
+DEFAULT_GALLERY_TEMPLATE = "gallery.j2"
 DEFAULT_PAGE_TEMPLATE = "page.j2"
-DEFAULT_TEMPLATE_MAP  = { "page": DEFAULT_PAGE_TEMPLATE, "post": DEFAULT_POST_TEMPLATE }
+DEFAULT_TEMPLATE_MAP  = { "page": DEFAULT_PAGE_TEMPLATE, "post": DEFAULT_POST_TEMPLATE, "gallery" : DEFAULT_GALLERY_TEMPLATE }
 
 def expand_filter(html, name="_default_"):
     tag = "<p>//EXPAND</p>"
@@ -77,7 +79,9 @@ def build_blog():
         #             the blog owner wants highlighted on their blog
         #   2. Pages: These are usually articles that are longer and will not appear by default on the post timeline
         #             but instead are available only through the nav bar.
-        if p["category"] == "page":
+        #   3. Galleries: These are pages that can be linked to by posts or pages. These do not appear in timeline or
+        #                 the nav bar. These pages are simply a list of images that can be scrolled through.
+        if p["category"] in ["page", "gallery"]:
             # Setup links to these articles
             ofile = os.path.basename(p["filename"]).replace(".md", ".html")
             ofile = os.path.join("pages", ofile)
@@ -91,6 +95,19 @@ def build_blog():
             posts.append(p)
         else: raise KeyError("Unrecognized category '{}' in post '{}'".format(p["category"], pf))
 
+        # Gallery pages have a directory as a metadata and we need to take
+        # every image in the dir and put it into p["images"] as URLs
+        # NOTE: Assume the gallery_dir is abs or rel from HTML dir
+        if "gallery_dir" in p:
+            gdir = p["gallery_dir"]
+            if gdir.startswith("/"): gdir = '.' + gdir
+            paths = [os.path.join(gdir, x) for x in os.listdir(gdir)]
+            url_paths =  []
+            for path in paths:
+                if path.startswith("."): url_paths.append(path[1:])
+                else: url_paths.append(path)
+            p["images"] = url_paths
+
     # Render any pages
     make_pages_dir()
     pages.sort(key=lambda x: x["title"])
@@ -98,12 +115,17 @@ def build_blog():
     for p in pages:
         tmpl = tenv.get_template(p["template"].replace(".j2", "")+".j2")
         r = tmpl.render({"page":p, "pages": pages, "posts": posts})
+        if p["category"] == "gallery":
+            tmpl = tenv.get_template(DEFAULT_GALLERY_TEMPLATE)
+            r = tmpl.render({"page":p, "pages": pages, "posts": posts})
         with open(p["filename_html"], 'w') as fp: fp.write(r)
 
     # Render the posts
     posts.sort(key=lambda x: x["timestamp"], reverse=True)
     tmpl = tenv.get_template(DEFAULT_POST_TEMPLATE)
-    r = tmpl.render({"posts": posts, "pages": pages})
+    # Filter out galleries
+    sidebar_links = [p for p in pages if p["category"] == "page"]
+    r = tmpl.render({"posts": posts, "pages": sidebar_links})
     with open("index.html", 'w') as fp: fp.write(r)
 
     return 0
