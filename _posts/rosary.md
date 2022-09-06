@@ -7,15 +7,14 @@ category: page
 
 # Paracord Rosaries
 
-<center><img src="/images/rosaries-20220820.jpg" width="50%" /></center>
+<center><a href="/pages/rosary_gallery.html"><img src="/images/rosaries-20220820.jpg" width="50%" /></a></center>
+<center><a href="/pages/rosary_gallery.html">Gallery</a></center>
 
 A hobby that I have developed in the past couple of years is assembling durable rosaries from
 paracord and wooden beads.
 
 At the moment I am only going to document my materials here but in the future I hope I build out
 this page into a tutorial as well. 
-
-[Gallery](/pages/rosary_gallery.html)
 
 ## One Rosary Summary
 

@@ -15,6 +15,35 @@ DEFAULT_GALLERY_TEMPLATE = "gallery.j2"
 DEFAULT_PAGE_TEMPLATE = "page.j2"
 DEFAULT_TEMPLATE_MAP  = { "page": DEFAULT_PAGE_TEMPLATE, "post": DEFAULT_POST_TEMPLATE, "gallery" : DEFAULT_GALLERY_TEMPLATE }
 
+def collapse_filter(html, name="_default_"):
+    start_tag = re.compile(r'<p>//\s*COLLAPSE\s*-\s*(.*)$')
+    end_tag = re.compile(r'<p>//\s*END COLLAPSE.*')
+    out_html = []
+    close_this = False
+    for line in html.split('\n'):
+        start_tag_m = start_tag.match(line)
+        if start_tag_m:
+            msg = start_tag_m[1]
+            msg = markdown2.markdown(msg)
+            # Create a unique collapse container name if none given
+            if not name:
+                name = hashlib.md5(line.encode('utf-8')).hexdigest()
+            out_html.append('<a data-toggle="collapse" data-target="#post_extended_{}" style="color:#A00;text-decoration:underline">{}</a>'.format(name, msg))
+            out_html.append('<div class="collapse hide" id="post_extended_{}"><div class="card card-body">'.format(name))
+            close_this = True
+            continue
+        end_tag_m = end_tag.match(line)
+        if end_tag_m:
+            close_this = False
+            out_html.append('</div></div>')
+            continue
+        # Otherwise just add back into the file contents
+        out_html.append(line)
+        continue
+    # Make sure to close now even if end tag was never found
+    if close_this: out_html.append('</div></div>')
+    return "\n".join(out_html)
+
 def expand_filter(html, name="_default_"):
     tag = "<p>//EXPAND</p>"
     out_html = []
@@ -72,7 +101,7 @@ def build_blog():
         if "template" not in p: p["template"] = DEFAULT_TEMPLATE_MAP.get("category", DEFAULT_PAGE_TEMPLATE)
         p["filename"] = str(pf)
         tagname = hashlib.md5(p["filename"].encode('utf-8')).hexdigest()
-        p["content"] = expand_filter(tobj, name=tagname)
+        p["content"] = collapse_filter(expand_filter(tobj, name=tagname), name=None)
 
         # There are different categories of articles that can be published:
         #   1. Posts: Blog posts that are published to the main index page. These are usually short articles that
