@@ -38,7 +38,7 @@ upon the deep wisdom provided by saints like:
 
   - [Isidore of Seville](https://www.amazon.com/Isidore-Sevilles-Etymologies-Complete-Translation/dp/1411665236),
     who showed to me great scholastic disipline can be attained while at the same time leading his flock as a powerful Bishop.
-  - [Josemaria Escriva](https://www.ewtn.com/catholicism/saints/josemaria-escriva-654), who teaches me how to life life while
+  - [Josemaria Escriva](https://www.ewtn.com/catholicism/saints/josemaria-escriva-654), who teaches me how to live life while
     remaining on the path toward objective meaning.
   - [Benedict of Nursia](http://www.osb.org/), for his establishment of disiplined prayer
   - [Thomas Aquinas](https://aquinas101.thomisticinstitute.org/), for his unparalleled application of reason who has made
