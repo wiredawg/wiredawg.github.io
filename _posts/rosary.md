@@ -48,19 +48,22 @@ This type comes with multicam paracord and either light or dark coffee beads.
 ### Type 2
 
 <img src="/images/Rosaries/IMG_0892-sm.jpg" width="40%" />
+<img src="/images/Rosaries/IMG_1005-sm.jpg" width="40%" />
 
 This type of rosary has a smaller cord (1-2mm) and usually a little extra room between the beads with more naturally colored wooden beads.
 
-- Rosary cord: Black "Micro" paracord, sometimes labelled "90 cord" instead of "550 cord" with sizes between 1.18mm and 2mm.
+- Rosary cord: Black or Brown "Micro" paracord, sometimes labelled "90 cord" instead of "550 cord" with sizes between 1.18mm and 2mm.
 - Ave beads: [10mm natuarally dyed beads](https://www.amazon.com/gp/product/B08M6C2T9F/ref=ppx_yo_dt_b_asin_title_o07_s01?ie=UTF8&psc=1)
-- Mystery beads: "Michael's metal beads"  
+  - Sometimes, I'll darken them with black shoe polish and gloss them with wax
+- Mystery beads: "Michael's metal beads" or [8mm Acrylic Beads](https://www.amazon.com/gp/product/B091V6PBTZ/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+  - Bead Caps: [7mm with 4mm hole spacer beads](https://www.amazon.com/gp/product/B07X4TMBMS/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1)
 
 ### Other Types
 
 I have experimented with many other combinations but have not formally specified any mostly because
 materials are not stable, expecially materals from Amazon.
 
-You can look at the gallery to see other rosaries.
+You can look at the <a href="/pages/rosary_gallery.html">gallery</a> to see other rosaries.
 
 // COLLAPSE - Some notes about materials...
 
@@ -100,7 +103,7 @@ You can look at the gallery to see other rosaries.
     - [Amazon - $28](https://www.amazon.com/gp/product/B07GX5SN85/ref=ppx_yo_dt_b_asin_title_o07_s00?ie=UTF8&psc=1)
 
   - 3 psc San Damiano Cruxifix
-    - I can no longer find any of these on Amazon, you can see them in the gallery
+    - I can no longer find any of these on Amazon, you can see them in the <a href="/pages/rosary_gallery.html">gallery</a>.
 
 ## Saint Medals
 
