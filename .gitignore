@@ -1,5 +1,5 @@
 .DS_STORE
-venv
+pyenv
 .pyc
 node_modules
 package-lock.json
