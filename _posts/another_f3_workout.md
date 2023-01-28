@@ -1,6 +1,6 @@
 ---
-title: F3 Workout Plan
-subtitle: Hamburger Hill
+title: Hamburger Hill
+subtitle: F3 Workout Plan
 date: 2022-08-19 07:53
 ---
 
