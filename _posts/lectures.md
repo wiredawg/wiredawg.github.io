@@ -5,9 +5,11 @@ date: 2023-01-28 10:50
 
 ## The real 'woke' that men need to experience
 
-I admit it. I grew up in a comfy middle class family where I was not especially
-challenged to develop responsibility and we really did not have to face live's
-tough questions.  I was occupied mainly on myself and my own whims and desires.
+I admit it. I grew up in a comfy middle class family and although my parents 
+provided a number of oppurtunities to develop my ability to handle responsibility, 
+I never fully embraced those experiences. Maturity level was a factor but mostly
+I believe that I was not pushed to deal with the hard things in life.
+I was occupied mainly on myself and my own whims and desires.
 This is a very common among American youth and has had the effect of
 essentially producing a generation of effeminate males. 
 
