@@ -1,6 +1,6 @@
 ---
 title: Lectures
-date: 2023-01-22 03:50
+date: 2023-01-28 10:50
 ---
 
 ## The real 'woke' that men need to experience
@@ -42,13 +42,16 @@ I cannot image anyone with a reasonable mentality would argue for anything else.
 
 //EXPAND
 
-**NOTE:** I mean to expand this list to include more authors. I have started with
-Dr. R.J. Snell's talks that I find most interesting but hope to include others
-by thinkers like Dr. Karin Oberg for understanding order in the universe, Fr.
-David Dufresne for a perspective on manhood and being Christ-like to others,
+**NOTE:** I mean to expand this list to include more authors. In honor of the day
+I am writing this being January 28th, the feast day of St. Thomas Aquinas, 
+I have started with Dr. R.J. Snell's talks that I find most interesting but hope to include others.
+Dr. R.J. Snell's talks are featured by the [Thomistic Institue](https://thomisticinstitute.org/)
+which is a work produced by the Dominican Friars living in Washington D.C.
+Another speaker known to work with the T.I. is Dr. Karin Oberg I will include her
+talks which help provide an understanding of how order can be found in the greater universe.
+More speakers I may post about are Fr. David Dufresne for a perspective on manhood and being Christ-like to others,
 and even (of all things) a [rapper](https://www.youtube.com/@e-knock6826)
-who's messages so very much resonate with the
-topics of this post.
+who's messages so very much resonate with the topics of this post.
 
 ## Acedia
 
